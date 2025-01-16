@@ -1,0 +1,5 @@
+/* Frontmatter/metadata container is hidden in preview mode */
+
+.frontmatter-container {
+    display: none;
+}

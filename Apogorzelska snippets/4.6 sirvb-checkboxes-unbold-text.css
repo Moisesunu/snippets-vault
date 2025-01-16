@@ -1,0 +1,6 @@
+.markdown-source-view.mod-cm6 .task-list-item-checkbox:not([data-task=' ']) + span,
+.markdown-source-view.mod-cm6 .task-list-item-checkbox:not([data-task=' ']) + span + span,
+.markdown-source-view ul > li.task-list-item.is-checked,
+.markdown-preview-view ol > li.task-list-item.is-checked {
+    font-weight: 400 !important;
+}

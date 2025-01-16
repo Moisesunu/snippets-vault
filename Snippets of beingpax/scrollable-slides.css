@@ -1,0 +1,17 @@
+/*
+CSS snippet that adds scrollbars on Obsidian slideshow slides in cases where content would normally overflow and be hidden
+*/
+
+.slides {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    pointer-events: auto !important;
+}
+
+.slides > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
