@@ -1,0 +1,45 @@
+/* --------------Centrar imagen----------------- */
+img.emoji {
+    display: inline;
+}
+img {
+    display: block;
+    max-width: 90%;
+    padding: 0 auto 0 auto;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+
+.caption {
+    color: var(--bright-purple);
+    font-size: 10px;
+}
+.imgcircle {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 80px;
+    width: 80px;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,11 @@
+/* ----------- Pastillas de etiquetas ----------- */
+/* Extraido del tema Minimal */
+.tag[href^="#🪧"] {
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.tag[href^="#📕"] {
+    background-color: rgb(33, 230, 193, 0.5);
+}
+.tag[href^="#📚"] {
+    background-color: rgb(39, 142, 165, 0.5);
+}

@@ -1,0 +1,78 @@
+/* ----------------- Extraido del tema de Suddha ----------------- */
+/* Focus mode */
+/* When the left sidebar is collapsed */
+@media only screen and (min-width: 768px) {
+    .workspace-split.is-collapsed ⁓ .mod-root .view-header-icon {
+        opacity:0;
+    }
+
+    .workspace-ribbon.mod-left {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .workspace-ribbon.mod-left.is-collapsed {
+        border-color: transparent;
+        background: var(--background-primary);
+        transition: all 0.7s ease-in-out;
+    }
+
+    .workspace-ribbon.mod-left.is-collapsed .side-dock-actions,
+    .workspace-ribbon.mod-left.is-collapsed .side-dock-settings {
+        opacity: 0;
+        transition: opacity 0.25s ease-in-out;
+    }
+
+    .workspace-ribbon.mod-left.is-collapsed:hover .side-dock-actions,
+    .workspace-ribbon.mod-left.is-collapsed:hover .side-dock-settings {
+        opacity: 1;
+        transition: opacity 0s ease-in-out;
+    }
+
+    .is-right-sidedock-collapsed .workspace-split.mod-right-split {
+        margin-right: 0px;
+    }
+    .view-actions {
+        opacity: 0;
+        margin-right: 0px;
+        margin-left: auto;
+        transition: opacity 0.25s ease-in-out;
+    }
+
+    .view-actions .view-action {
+        margin-right: 4px;
+    }
+    .view-actions .view-action:last-child {
+        margin-left: 2px;
+    }
+
+    .workspace-ribbon:not(.is-collapsed) ⁓ .mod-root .view-actions {
+        opacity: 1;
+        transform: scale(0.70);
+        position: absolute;
+        right: -25px;
+        width: 200px;
+        transition: opacity 0.25s ease-in-out;
+    }
+
+    .mod-right.is-collapsed ⁓ .mod-root .view-header:hover .view-actions {
+        opacity: 1;
+        transition: opacity 0.25s ease-in-out;
+    }
+
+    .workspace-ribbon.mod-left .side-dock-actions,
+    .workspace-ribbon.mod-left .side-dock-settings {
+        opacity: 0;
+        transition: opacity 0s ease-in-out;
+    }
+
+    .workspace-ribbon.mod-left:hover .side-dock-actions,
+    .workspace-ribbon.mod-left:hover .side-dock-settings {
+        opacity: 1;
+        transition: opacity 0s ease-in-out;
+    }
+
+    .nav-files-container {
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+}
